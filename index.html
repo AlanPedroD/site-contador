@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site contador oficial</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                Contar de:
+                <input type="number" name="inicio" id="input-inicio" min="0">
+            </p>
+            <p class="inputs">
+                Até : 
+                <input type="number" name="fim" id="input-fim">
+            </p>
+            <p class="inputs">
+                De quanto em quanto ?:
+                <input type="number" name="passo" id="input-passo">
+            </p>
+            <p class="verificar">
+                <input type="button" value="contar" onclick="contar()" class="contar">
+            </p>
+        </div>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado
+            <img src="" alt="" id="imagem">
+        </div>
+    </section>
+        <footer>
+            <p>&copy; CursoEmVídeo</p>
+        </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
